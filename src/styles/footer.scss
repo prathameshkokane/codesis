@@ -1,0 +1,115 @@
+@import "colors";
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: $dark;
+  color: $first;
+
+  .left {
+    width: 30rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    .newsletter {
+      height: 3.5rem;
+      border-radius: 15px;
+      border: 1px solid $dark2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+
+      input {
+        background-color: $dark;
+        border: none;
+        color: $first;
+        // font-family: Urbanist;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.056px;
+      }
+
+      button {
+        width: 15rem;
+        height: 2.9rem;
+        border-radius: 15px;
+        background-color: $dark2;
+        color: #fff;
+        border: none;
+        // font-family: Urbanist;
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.048px;
+      }
+    }
+
+    h2 {
+      //   font-family: Urbanist;
+      font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 140%;
+      letter-spacing: 0.192px;
+    }
+    .signup_btn {
+      width: 15rem;
+      height: 2.9rem;
+      background-color: $second;
+      color: $first;
+      border: none;
+      border-radius: 20px;
+      text-align: center;
+      //   font-family: Urbanist;
+      font-size: 0.9rem;
+      font-weight: 800;
+      line-height: 140%;
+      letter-spacing: 0.056px;
+    }
+  }
+
+  .right {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    border-left: 2px solid $dark2;
+    padding-left: 5rem;
+
+    img {
+      align-self: flex-start;
+      width: 119.129px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+      list-style: none;
+
+      li {
+        opacity: 0.6;
+        // font-family: Urbanist;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.096px;
+        line-height: 140%; /* 16.8px */
+      }
+      p {
+        // font-family: Urbanist;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 16.8px */
+        letter-spacing: 0.096px;
+      }
+    }
+  }
+}

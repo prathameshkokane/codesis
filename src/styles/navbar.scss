@@ -1,0 +1,48 @@
+@import "colors";
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  align-items: center;
+  // justify-content: space-around;
+  list-style: none;
+  position: absolute;
+  padding-inline: 5rem;
+
+  .logo {
+    width: 90px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+
+    .btn {
+      padding: 20px 40px;
+      border-radius: 20px;
+    }
+    .btn1 {
+      border: 2px solid $first;
+      background-color: transparent;
+      color: $first;
+    }
+    .btn2 {
+      background-color: $first;
+      border: 1.5px solid $second;
+      color: $second;
+    }
+  }
+  .menu {
+    display: none;
+  }
+}
