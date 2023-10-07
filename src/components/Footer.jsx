@@ -5,7 +5,7 @@ import Linkedin from "../assets/Linkedin.png";
 import Youtube from "../assets/Youtube.png";
 import Medium from "../assets/Medium.png";
 import Pinterest from "../assets/Pinterest.png";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logo.png";
 import "../styles/footer.scss";
 
 const Footer = () => {
