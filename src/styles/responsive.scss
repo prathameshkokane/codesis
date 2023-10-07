@@ -1,6 +1,9 @@
 @import "./colors.scss";
 
 @media screen and (max-width: 768px) {
+  .circle {
+    width: 100%;
+  }
   .navbar {
     height: 8vh;
     grid-template-columns: 1fr 3fr 1fr;
